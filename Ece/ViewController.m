@@ -27,7 +27,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    _imageNo = 0;
+    //_imageNo = 0;
+    
+    _imageNo = [[NSUserDefaults standardUserDefaults]integerForKey:@"latestImg"];
+    NSLog(@"_imageNo: %ld", _imageNo);
+    
     
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(handleLabel:)
@@ -41,7 +45,7 @@
     changeImageGesture.numberOfTapsRequired = 1;
     [self.view addGestureRecognizer:changeImageGesture];
     
-    [self handleImage];
+    [self handleImage:NO];
 }
 
 - (void)handleTapGesture:(UITapGestureRecognizer *)sender {
@@ -52,8 +56,7 @@
 
 - (void)handleImageGesture:(UITapGestureRecognizer *)sender {
     if (sender.state == UIGestureRecognizerStateRecognized) {
-        NSLog(@"IMAGE");
-        [self handleImage];
+        [self handleImage:YES];
     }
 }
 
@@ -121,15 +124,20 @@
     return [calendar dateFromComponents:components];
 }
 
-- (void)handleImage{
-    _imageNo++;
+- (void)handleImage:(BOOL)shouldAdd{
+    if (shouldAdd) {
+        _imageNo++;
+    }
+    
     NSString *imgStr = [NSString stringWithFormat:@"%ld.png", (long)_imageNo];
     [_elsaImageView setImage:[UIImage imageNamed:imgStr]];
-    
+    [[NSUserDefaults standardUserDefaults]setInteger:_imageNo forKey:@"latestImg"];
+    [[NSUserDefaults standardUserDefaults]synchronize];
+    NSLog(@"displayedImage: %ld", _imageNo);
+    NSLog(@"saved_imageNo: %ld", _imageNo);
     if (_imageNo == 11) {
         _imageNo = 0;
     }
-    
     
 }
 @end
