@@ -13,6 +13,21 @@
 		2B2C8390222B2EF200F6FE63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C838F222B2EF200F6FE63 /* Assets.xcassets */; };
 		2B2C8393222B2EF200F6FE63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C8391222B2EF200F6FE63 /* LaunchScreen.storyboard */; };
 		2B2C8396222B2EF200F6FE63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2C8395222B2EF200F6FE63 /* main.m */; };
+		2B2C839D222B33C700F6FE63 /* elsa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C839C222B33C700F6FE63 /* elsa.jpg */; };
+		2B2C839F222B342500F6FE63 /* ElsaPose.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C839E222B342500F6FE63 /* ElsaPose.png */; };
+		2B2C83A1222C5A2B00F6FE63 /* hb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C83A0222C5A2B00F6FE63 /* hb.mp3 */; };
+		2B2C83A4222C5A4400F6FE63 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2C83A3222C5A4400F6FE63 /* AVFoundation.framework */; };
+		2B8CE7762333B61F00041567 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8CE76B2333B61E00041567 /* 4.png */; };
+		2B8CE7772333B61F00041567 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8CE76C2333B61E00041567 /* 8.png */; };
+		2B8CE7782333B61F00041567 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8CE76D2333B61E00041567 /* 5.png */; };
+		2B8CE7792333B61F00041567 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8CE76E2333B61E00041567 /* 9.png */; };
+		2B8CE77A2333B61F00041567 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8CE76F2333B61E00041567 /* 10.png */; };
+		2B8CE77B2333B61F00041567 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8CE7702333B61E00041567 /* 6.png */; };
+		2B8CE77C2333B61F00041567 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8CE7712333B61E00041567 /* 2.png */; };
+		2B8CE77D2333B61F00041567 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8CE7722333B61E00041567 /* 7.png */; };
+		2B8CE77E2333B61F00041567 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8CE7732333B61E00041567 /* 11.png */; };
+		2B8CE77F2333B61F00041567 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8CE7742333B61E00041567 /* 1.png */; };
+		2B8CE7802333B61F00041567 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8CE7752333B61F00041567 /* 3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +41,21 @@
 		2B2C8392222B2EF200F6FE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B2C8394222B2EF200F6FE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B2C8395222B2EF200F6FE63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B2C839C222B33C700F6FE63 /* elsa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elsa.jpg; sourceTree = "<group>"; };
+		2B2C839E222B342500F6FE63 /* ElsaPose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ElsaPose.png; sourceTree = "<group>"; };
+		2B2C83A0222C5A2B00F6FE63 /* hb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hb.mp3; sourceTree = "<group>"; };
+		2B2C83A3222C5A4400F6FE63 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2B8CE76B2333B61E00041567 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		2B8CE76C2333B61E00041567 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		2B8CE76D2333B61E00041567 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		2B8CE76E2333B61E00041567 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		2B8CE76F2333B61E00041567 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		2B8CE7702333B61E00041567 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		2B8CE7712333B61E00041567 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		2B8CE7722333B61E00041567 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		2B8CE7732333B61E00041567 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		2B8CE7742333B61E00041567 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		2B8CE7752333B61F00041567 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2C83A4222C5A4400F6FE63 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +75,7 @@
 			children = (
 				2B2C8385222B2EF000F6FE63 /* Ece */,
 				2B2C8384222B2EF000F6FE63 /* Products */,
+				2B2C83A2222C5A4400F6FE63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +90,10 @@
 		2B2C8385222B2EF000F6FE63 /* Ece */ = {
 			isa = PBXGroup;
 			children = (
+				2B8CE76A2333B33800041567 /* Images */,
+				2B2C839C222B33C700F6FE63 /* elsa.jpg */,
+				2B2C839E222B342500F6FE63 /* ElsaPose.png */,
+				2B2C83A0222C5A2B00F6FE63 /* hb.mp3 */,
 				2B2C8386222B2EF000F6FE63 /* AppDelegate.h */,
 				2B2C8387222B2EF000F6FE63 /* AppDelegate.m */,
 				2B2C8389222B2EF000F6FE63 /* ViewController.h */,
@@ -69,6 +105,32 @@
 				2B2C8395222B2EF200F6FE63 /* main.m */,
 			);
 			path = Ece;
+			sourceTree = "<group>";
+		};
+		2B2C83A2222C5A4400F6FE63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B2C83A3222C5A4400F6FE63 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B8CE76A2333B33800041567 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2B8CE7742333B61E00041567 /* 1.png */,
+				2B8CE7712333B61E00041567 /* 2.png */,
+				2B8CE7752333B61F00041567 /* 3.png */,
+				2B8CE76B2333B61E00041567 /* 4.png */,
+				2B8CE76D2333B61E00041567 /* 5.png */,
+				2B8CE7702333B61E00041567 /* 6.png */,
+				2B8CE7722333B61E00041567 /* 7.png */,
+				2B8CE76C2333B61E00041567 /* 8.png */,
+				2B8CE76E2333B61E00041567 /* 9.png */,
+				2B8CE76F2333B61E00041567 /* 10.png */,
+				2B8CE7732333B61E00041567 /* 11.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +190,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8CE77C2333B61F00041567 /* 2.png in Resources */,
+				2B8CE7772333B61F00041567 /* 8.png in Resources */,
+				2B2C839F222B342500F6FE63 /* ElsaPose.png in Resources */,
+				2B8CE7802333B61F00041567 /* 3.png in Resources */,
+				2B8CE77D2333B61F00041567 /* 7.png in Resources */,
+				2B8CE7762333B61F00041567 /* 4.png in Resources */,
+				2B8CE77A2333B61F00041567 /* 10.png in Resources */,
+				2B8CE7792333B61F00041567 /* 9.png in Resources */,
+				2B2C839D222B33C700F6FE63 /* elsa.jpg in Resources */,
+				2B8CE77B2333B61F00041567 /* 6.png in Resources */,
+				2B8CE77F2333B61F00041567 /* 1.png in Resources */,
 				2B2C8393222B2EF200F6FE63 /* LaunchScreen.storyboard in Resources */,
+				2B8CE77E2333B61F00041567 /* 11.png in Resources */,
 				2B2C8390222B2EF200F6FE63 /* Assets.xcassets in Resources */,
+				2B8CE7782333B61F00041567 /* 5.png in Resources */,
+				2B2C83A1222C5A2B00F6FE63 /* hb.mp3 in Resources */,
 				2B2C838E222B2EF000F6FE63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

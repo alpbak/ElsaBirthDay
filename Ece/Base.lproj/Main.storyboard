@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,81 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ElsaPose.png" translatesAutoresizingMaskIntoConstraints="NO" id="N85-Gd-XWD">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v6E-ib-rct">
+                                <rect key="frame" x="240.5" y="411" width="287.5" height="202"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="199"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="4" height="3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ECE'NİN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="HZE-Gi-ODq">
+                                <rect key="frame" x="20" y="223" width="728" height="59"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="58"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOĞUMGÜNÜ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hJZ-95-8P3">
+                                <rect key="frame" x="20" y="312" width="728" height="59"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="58"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GÜN KALDI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="MVC-qD-oHo">
+                                <rect key="frame" x="20" y="653" width="728" height="60"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="58"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MVC-qD-oHo" secondAttribute="trailing" constant="20" id="6JP-1J-79d"/>
+                            <constraint firstItem="v6E-ib-rct" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="81t-fD-mN4"/>
+                            <constraint firstItem="HZE-Gi-ODq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JJT-lM-M0j"/>
+                            <constraint firstItem="MVC-qD-oHo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KZk-HK-bRK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hJZ-95-8P3" secondAttribute="trailing" constant="20" id="ULP-c2-cWF"/>
+                            <constraint firstItem="hJZ-95-8P3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="XpI-Bw-YK9"/>
+                            <constraint firstItem="MVC-qD-oHo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ZTg-nf-PTR"/>
+                            <constraint firstItem="v6E-ib-rct" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZhS-HZ-cNH"/>
+                            <constraint firstItem="N85-Gd-XWD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="aUm-ik-YKa"/>
+                            <constraint firstAttribute="bottom" secondItem="N85-Gd-XWD" secondAttribute="bottom" id="fph-4I-6WC"/>
+                            <constraint firstItem="hJZ-95-8P3" firstAttribute="top" secondItem="HZE-Gi-ODq" secondAttribute="bottom" constant="30" id="gyy-gI-CP5"/>
+                            <constraint firstItem="MVC-qD-oHo" firstAttribute="top" secondItem="v6E-ib-rct" secondAttribute="bottom" constant="40" id="hgM-Bh-mGC"/>
+                            <constraint firstAttribute="trailing" secondItem="N85-Gd-XWD" secondAttribute="trailing" id="iY1-U2-mzK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HZE-Gi-ODq" secondAttribute="trailing" constant="20" id="rzy-Mc-GuK"/>
+                            <constraint firstItem="HZE-Gi-ODq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="tye-s1-EWd"/>
+                            <constraint firstItem="hJZ-95-8P3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vWZ-cf-SB1"/>
+                            <constraint firstItem="v6E-ib-rct" firstAttribute="top" secondItem="hJZ-95-8P3" secondAttribute="bottom" constant="40" id="wVC-4S-MXt"/>
+                            <constraint firstItem="N85-Gd-XWD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wXR-mH-6AE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="daysLabel" destination="v6E-ib-rct" id="1LM-GQ-OFt"/>
+                        <outlet property="elsaImageView" destination="N85-Gd-XWD" id="ttf-jX-M6Y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="56.799999999999997" y="27.436281859070466"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ElsaPose.png" width="579" height="1069.5"/>
+    </resources>
 </document>
